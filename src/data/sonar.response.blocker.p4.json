@@ -1,0 +1,1203 @@
+{
+  "total": 330,
+  "p": 4,
+  "ps": 100,
+  "paging": {
+    "pageIndex": 4,
+    "pageSize": 100,
+    "total": 330
+  },
+  "issues": [
+    {
+      "key": "AVRTiim3cxW0xc3UIN7p",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/LimitOfIndemnityBuilder.java",
+      "componentId": 3138,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 59,
+        "endLine": 59,
+        "startOffset": 6,
+        "endOffset": 35
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"false\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTiim3cxW0xc3UIN7q",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/LimitOfIndemnityBuilder.java",
+      "componentId": 3138,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 49,
+        "endLine": 49,
+        "startOffset": 6,
+        "endOffset": 35
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"false\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTiimLcxW0xc3UIN68",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/ClauseBuilder.java",
+      "componentId": 3132,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 72,
+        "endLine": 72,
+        "startOffset": 7,
+        "endOffset": 48
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"true\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTiimwcxW0xc3UIN7d",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/ExtendedCoverageOrExclusionBuilder.java",
+      "componentId": 3137,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 73,
+        "endLine": 73,
+        "startOffset": 7,
+        "endOffset": 48
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"true\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTiinmcxW0xc3UIN8R",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/SublimitOrDeductibleBuilder.java",
+      "componentId": 3144,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 87,
+        "endLine": 87,
+        "startOffset": 7,
+        "endOffset": 40
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"true\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTij-XcxW0xc3UIO4B",
+      "rule": "squid:S1181",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/org/apache/cocoon/forms/binding/DaoMultiJXPathBinding.java",
+      "componentId": 3810,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 182,
+        "endLine": 182,
+        "startOffset": 12,
+        "endOffset": 21
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Catch Exception instead of Throwable.",
+      "debt": "20min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "cert",
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTij-XcxW0xc3UIO4C",
+      "rule": "squid:S1181",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/org/apache/cocoon/forms/binding/DaoMultiJXPathBinding.java",
+      "componentId": 3810,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 200,
+        "endLine": 200,
+        "startOffset": 12,
+        "endOffset": 21
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Catch Exception instead of Throwable.",
+      "debt": "20min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "cert",
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijBjcxW0xc3UIOT1",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/repositories/AbstractCompanyExtendedCrudRepository.java",
+      "componentId": 3369,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 16,
+        "endLine": 16,
+        "startOffset": 11,
+        "endOffset": 24
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"true\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijK_cxW0xc3UIOVs",
+      "rule": "squid:S2259",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/services/impl/BusinessEntityUwboServiceImpl.java",
+      "componentId": 3489,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 118,
+        "endLine": 118,
+        "startOffset": 60,
+        "endOffset": 80
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "NullPointerException might be thrown as 'businessEntity' is nullable here",
+      "debt": "10min",
+      "author": "beatrice.rizzo@exmachina.ch",
+      "tags": [
+        "bug",
+        "cert",
+        "cwe",
+        "owasp-a1",
+        "owasp-a2",
+        "owasp-a6",
+        "security"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijN8cxW0xc3UIOZq",
+      "rule": "squid:S2259",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/services/impl/WorkbookUtils.java",
+      "componentId": 3514,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 58,
+        "endLine": 58,
+        "startOffset": 8,
+        "endOffset": 28
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "NullPointerException might be thrown as 'workbook' is nullable here",
+      "debt": "10min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cert",
+        "cwe",
+        "owasp-a1",
+        "owasp-a2",
+        "owasp-a6",
+        "security"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijNycxW0xc3UIOZR",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/services/impl/RegistryAclServiceImpl.java",
+      "componentId": 3513,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 346,
+        "endLine": 346,
+        "startOffset": 5,
+        "endOffset": 43
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"true\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijNycxW0xc3UIOZS",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/services/impl/RegistryAclServiceImpl.java",
+      "componentId": 3513,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 342,
+        "endLine": 342,
+        "startOffset": 5,
+        "endOffset": 43
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"true\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijNzcxW0xc3UIOZT",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/services/impl/RegistryAclServiceImpl.java",
+      "componentId": 3513,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 368,
+        "endLine": 368,
+        "startOffset": 5,
+        "endOffset": 42
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"true\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijNzcxW0xc3UIOZU",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:mvc:src/main/java/ch/exm/risk/services/impl/RegistryAclServiceImpl.java",
+      "componentId": 3513,
+      "project": "generisk:generisk",
+      "subProject": "generisk:mvc",
+      "textRange": {
+        "startLine": 364,
+        "endLine": 364,
+        "startOffset": 5,
+        "endOffset": 42
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"true\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijXkcxW0xc3UIOds",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/cocoon/reading/VirtualFileSystemReader.java",
+      "componentId": 3634,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 40,
+        "endLine": 40,
+        "startOffset": 7,
+        "endOffset": 22
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"false\"",
+      "debt": "15min",
+      "author": "mariobisignani@mycompany.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijZCcxW0xc3UIOfX",
+      "rule": "squid:S2259",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/generisk/document/portfolio/DocumentLevel.java",
+      "componentId": 3648,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 30,
+        "endLine": 30,
+        "startOffset": 26,
+        "endOffset": 33
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "textRange": {
+                "startLine": 28,
+                "endLine": 28,
+                "startOffset": 23,
+                "endOffset": 33
+              },
+              "msg": ""
+            }
+          ]
+        }
+      ],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "NullPointerException might be thrown as 'dl' is nullable here",
+      "debt": "10min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cert",
+        "cwe",
+        "owasp-a1",
+        "owasp-a2",
+        "owasp-a6",
+        "security"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijZCcxW0xc3UIOfY",
+      "rule": "squid:S2097",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/generisk/document/portfolio/DocumentLevel.java",
+      "componentId": 3648,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 28,
+        "endLine": 28,
+        "startOffset": 16,
+        "endOffset": 22
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Add a type test to this method.",
+      "debt": "5min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijZVcxW0xc3UIOgK",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/generisk/document/portfolio/Documents.java",
+      "componentId": 3650,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 827,
+        "endLine": 827,
+        "startOffset": 21,
+        "endOffset": 52
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"true\"",
+      "debt": "15min",
+      "author": "",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijZVcxW0xc3UIOgL",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/generisk/document/portfolio/Documents.java",
+      "componentId": 3650,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 820,
+        "endLine": 820,
+        "startOffset": 21,
+        "endOffset": 52
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"true\"",
+      "debt": "15min",
+      "author": "",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijbHcxW0xc3UIOhS",
+      "rule": "squid:S2674",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/opengenerisk/service/filetransfer/impl/UploadManagerImpl.java",
+      "componentId": 3670,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 30,
+        "endLine": 30,
+        "startOffset": 5,
+        "endOffset": 9
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Check the return value of the \"read\" call to see how many bytes were read.",
+      "debt": "15min",
+      "author": "mariobisignani@mycompany.com",
+      "tags": [
+        "bug"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijbccxW0xc3UIOhe",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/opengenerisk/service/payments/PaymentServiceImpl.java",
+      "componentId": 3674,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 50,
+        "endLine": 50,
+        "startOffset": 8,
+        "endOffset": 19
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"true\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijfOcxW0xc3UIOm0",
+      "rule": "squid:S1181",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/flow/BindingBaseDynamicPropertyHandler.java",
+      "componentId": 3705,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 93,
+        "endLine": 93,
+        "startOffset": 12,
+        "endOffset": 21
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Catch Exception instead of Throwable.",
+      "debt": "20min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "cert",
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijhXcxW0xc3UIOqv",
+      "rule": "squid:S2259",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/BusinessEntityModel.java",
+      "componentId": 3722,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 1318,
+        "endLine": 1318,
+        "startOffset": 27,
+        "endOffset": 56
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "NullPointerException might be thrown as 'searchCriteria' is nullable here",
+      "debt": "10min",
+      "author": "beatricerizzo@exmachina.ch",
+      "tags": [
+        "bug",
+        "cert",
+        "cwe",
+        "owasp-a1",
+        "owasp-a2",
+        "owasp-a6",
+        "security"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijiCcxW0xc3UIOr9",
+      "rule": "squid:S1181",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/DynamicBinder.java",
+      "componentId": 3728,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 55,
+        "endLine": 55,
+        "startOffset": 12,
+        "endOffset": 21
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Catch Exception instead of Throwable.",
+      "debt": "20min",
+      "author": "mariobisignani@mycompany.com",
+      "tags": [
+        "cert",
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijjocxW0xc3UIOs0",
+      "rule": "squid:S2259",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/business/perspective/MessageModel.java",
+      "componentId": 3746,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 58,
+        "endLine": 58,
+        "startOffset": 47,
+        "endOffset": 76
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "NullPointerException might be thrown as 'message' is nullable here",
+      "debt": "10min",
+      "author": "mariobisignani@mycompany.com",
+      "tags": [
+        "bug",
+        "cert",
+        "cwe",
+        "owasp-a1",
+        "owasp-a2",
+        "owasp-a6",
+        "security"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijkacxW0xc3UIOuL",
+      "rule": "squid:S1206",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/dialog/CollaborateModel.java",
+      "componentId": 3751,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 885,
+        "endLine": 885,
+        "startOffset": 17,
+        "endOffset": 23
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "This class overrides \"equals()\" and should therefore also override \"hashCode()\".",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cert",
+        "cwe"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijkacxW0xc3UIOuM",
+      "rule": "squid:S1206",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/dialog/CollaborateModel.java",
+      "componentId": 3751,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 743,
+        "endLine": 743,
+        "startOffset": 18,
+        "endOffset": 24
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "This class overrides \"equals()\" and should therefore also override \"hashCode()\".",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cert",
+        "cwe"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijkpcxW0xc3UIOu6",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/dialog/CreateDocumentModel.java",
+      "componentId": 3752,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 518,
+        "endLine": 518,
+        "startOffset": 6,
+        "endOffset": 24
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"false\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijkpcxW0xc3UIOu7",
+      "rule": "squid:S2583",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/dialog/CreateDocumentModel.java",
+      "componentId": 3752,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 518,
+        "endLine": 518,
+        "startOffset": 6,
+        "endOffset": 59
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "Change this condition so that it does not always evaluate to \"false\"",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cwe",
+        "misra"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    },
+    {
+      "key": "AVRTijmncxW0xc3UIOxk",
+      "rule": "squid:S1206",
+      "severity": "BLOCKER",
+      "component": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/modalwindow/CatPerilStateRegion.java",
+      "componentId": 3768,
+      "project": "generisk:generisk",
+      "subProject": "generisk:web",
+      "textRange": {
+        "startLine": 36,
+        "endLine": 36,
+        "startOffset": 16,
+        "endOffset": 22
+      },
+      "flows": [],
+      "resolution": "REMOVED",
+      "status": "CLOSED",
+      "message": "This class overrides \"equals()\" and should therefore also override \"hashCode()\".",
+      "debt": "15min",
+      "author": "matteo.cerina@gmail.com",
+      "tags": [
+        "bug",
+        "cert",
+        "cwe"
+      ],
+      "creationDate": "2016-04-26T18:55:55+0200",
+      "updateDate": "2016-05-04T16:14:45+0200",
+      "closeDate": "2016-05-04T16:14:45+0200"
+    }
+  ],
+  "components": [
+    {
+      "id": 3513,
+      "key": "generisk:mvc:src/main/java/ch/exm/risk/services/impl/RegistryAclServiceImpl.java",
+      "uuid": "AVRTib4ecxW0xc3UIJ1d",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "RegistryAclServiceImpl.java",
+      "longName": "src/main/java/ch/exm/risk/services/impl/RegistryAclServiceImpl.java",
+      "path": "src/main/java/ch/exm/risk/services/impl/RegistryAclServiceImpl.java",
+      "projectId": 165,
+      "subProjectId": 2776
+    },
+    {
+      "id": 3514,
+      "key": "generisk:mvc:src/main/java/ch/exm/risk/services/impl/WorkbookUtils.java",
+      "uuid": "AVRTib4ecxW0xc3UIJ1e",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "WorkbookUtils.java",
+      "longName": "src/main/java/ch/exm/risk/services/impl/WorkbookUtils.java",
+      "path": "src/main/java/ch/exm/risk/services/impl/WorkbookUtils.java",
+      "projectId": 165,
+      "subProjectId": 2776
+    },
+    {
+      "id": 3670,
+      "key": "generisk:web:src/main/java/ch/exm/opengenerisk/service/filetransfer/impl/UploadManagerImpl.java",
+      "uuid": "AVRTib4ncxW0xc3UIJ36",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "UploadManagerImpl.java",
+      "longName": "src/main/java/ch/exm/opengenerisk/service/filetransfer/impl/UploadManagerImpl.java",
+      "path": "src/main/java/ch/exm/opengenerisk/service/filetransfer/impl/UploadManagerImpl.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3489,
+      "key": "generisk:mvc:src/main/java/ch/exm/risk/services/impl/BusinessEntityUwboServiceImpl.java",
+      "uuid": "AVRTib4dcxW0xc3UIJ1F",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "BusinessEntityUwboServiceImpl.java",
+      "longName": "src/main/java/ch/exm/risk/services/impl/BusinessEntityUwboServiceImpl.java",
+      "path": "src/main/java/ch/exm/risk/services/impl/BusinessEntityUwboServiceImpl.java",
+      "projectId": 165,
+      "subProjectId": 2776
+    },
+    {
+      "id": 3610,
+      "key": "generisk:web",
+      "uuid": "AVRTib5AcxW0xc3UIJ-b",
+      "enabled": true,
+      "qualifier": "BRC",
+      "name": "Exm Generisk Web",
+      "longName": "Exm Generisk Web",
+      "path": "modules/web",
+      "projectId": 165,
+      "subProjectId": 165
+    },
+    {
+      "id": 3746,
+      "key": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/business/perspective/MessageModel.java",
+      "uuid": "AVRTib4scxW0xc3UIJ5G",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "MessageModel.java",
+      "longName": "src/main/java/ch/exm/opengenerisk/ui/model/business/perspective/MessageModel.java",
+      "path": "src/main/java/ch/exm/opengenerisk/ui/model/business/perspective/MessageModel.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3722,
+      "key": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/BusinessEntityModel.java",
+      "uuid": "AVRTib4qcxW0xc3UIJ4u",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "BusinessEntityModel.java",
+      "longName": "src/main/java/ch/exm/opengenerisk/ui/model/BusinessEntityModel.java",
+      "path": "src/main/java/ch/exm/opengenerisk/ui/model/BusinessEntityModel.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3648,
+      "key": "generisk:web:src/main/java/ch/exm/generisk/document/portfolio/DocumentLevel.java",
+      "uuid": "AVRTib4mcxW0xc3UIJ3k",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "DocumentLevel.java",
+      "longName": "src/main/java/ch/exm/generisk/document/portfolio/DocumentLevel.java",
+      "path": "src/main/java/ch/exm/generisk/document/portfolio/DocumentLevel.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3634,
+      "key": "generisk:web:src/main/java/ch/exm/cocoon/reading/VirtualFileSystemReader.java",
+      "uuid": "AVRTib4lcxW0xc3UIJ3W",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "VirtualFileSystemReader.java",
+      "longName": "src/main/java/ch/exm/cocoon/reading/VirtualFileSystemReader.java",
+      "path": "src/main/java/ch/exm/cocoon/reading/VirtualFileSystemReader.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3768,
+      "key": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/modalwindow/CatPerilStateRegion.java",
+      "uuid": "AVRTib4ucxW0xc3UIJ5c",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "CatPerilStateRegion.java",
+      "longName": "src/main/java/ch/exm/opengenerisk/ui/model/modalwindow/CatPerilStateRegion.java",
+      "path": "src/main/java/ch/exm/opengenerisk/ui/model/modalwindow/CatPerilStateRegion.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3728,
+      "key": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/DynamicBinder.java",
+      "uuid": "AVRTib4qcxW0xc3UIJ40",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "DynamicBinder.java",
+      "longName": "src/main/java/ch/exm/opengenerisk/ui/model/DynamicBinder.java",
+      "path": "src/main/java/ch/exm/opengenerisk/ui/model/DynamicBinder.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3650,
+      "key": "generisk:web:src/main/java/ch/exm/generisk/document/portfolio/Documents.java",
+      "uuid": "AVRTib4mcxW0xc3UIJ3m",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "Documents.java",
+      "longName": "src/main/java/ch/exm/generisk/document/portfolio/Documents.java",
+      "path": "src/main/java/ch/exm/generisk/document/portfolio/Documents.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3674,
+      "key": "generisk:web:src/main/java/ch/exm/opengenerisk/service/payments/PaymentServiceImpl.java",
+      "uuid": "AVRTib4ncxW0xc3UIJ3-",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "PaymentServiceImpl.java",
+      "longName": "src/main/java/ch/exm/opengenerisk/service/payments/PaymentServiceImpl.java",
+      "path": "src/main/java/ch/exm/opengenerisk/service/payments/PaymentServiceImpl.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 2776,
+      "key": "generisk:mvc",
+      "uuid": "AVRTib4jcxW0xc3UIJ2_",
+      "enabled": true,
+      "qualifier": "BRC",
+      "name": "Exm Generisk MVC",
+      "longName": "Exm Generisk MVC",
+      "path": "modules/mvc",
+      "projectId": 165,
+      "subProjectId": 165
+    },
+    {
+      "id": 165,
+      "key": "generisk:generisk",
+      "uuid": "AVRTiaLocxW0xc3UIJBH",
+      "enabled": true,
+      "qualifier": "TRK",
+      "name": "Exm Generisk",
+      "longName": "Exm Generisk"
+    },
+    {
+      "id": 3369,
+      "key": "generisk:mvc:src/main/java/ch/exm/risk/repositories/AbstractCompanyExtendedCrudRepository.java",
+      "uuid": "AVRTib4WcxW0xc3UIJzN",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "AbstractCompanyExtendedCrudRepository.java",
+      "longName": "src/main/java/ch/exm/risk/repositories/AbstractCompanyExtendedCrudRepository.java",
+      "path": "src/main/java/ch/exm/risk/repositories/AbstractCompanyExtendedCrudRepository.java",
+      "projectId": 165,
+      "subProjectId": 2776
+    },
+    {
+      "id": 3810,
+      "key": "generisk:web:src/main/java/org/apache/cocoon/forms/binding/DaoMultiJXPathBinding.java",
+      "uuid": "AVRTib4wcxW0xc3UIJ6G",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "DaoMultiJXPathBinding.java",
+      "longName": "src/main/java/org/apache/cocoon/forms/binding/DaoMultiJXPathBinding.java",
+      "path": "src/main/java/org/apache/cocoon/forms/binding/DaoMultiJXPathBinding.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3751,
+      "key": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/dialog/CollaborateModel.java",
+      "uuid": "AVRTib4scxW0xc3UIJ5L",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "CollaborateModel.java",
+      "longName": "src/main/java/ch/exm/opengenerisk/ui/model/dialog/CollaborateModel.java",
+      "path": "src/main/java/ch/exm/opengenerisk/ui/model/dialog/CollaborateModel.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3752,
+      "key": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/model/dialog/CreateDocumentModel.java",
+      "uuid": "AVRTib4scxW0xc3UIJ5M",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "CreateDocumentModel.java",
+      "longName": "src/main/java/ch/exm/opengenerisk/ui/model/dialog/CreateDocumentModel.java",
+      "path": "src/main/java/ch/exm/opengenerisk/ui/model/dialog/CreateDocumentModel.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3144,
+      "key": "generisk:mvc:src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/SublimitOrDeductibleBuilder.java",
+      "uuid": "AVRTib4JcxW0xc3UIJvs",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "SublimitOrDeductibleBuilder.java",
+      "longName": "src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/SublimitOrDeductibleBuilder.java",
+      "path": "src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/SublimitOrDeductibleBuilder.java",
+      "projectId": 165,
+      "subProjectId": 2776
+    },
+    {
+      "id": 3132,
+      "key": "generisk:mvc:src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/ClauseBuilder.java",
+      "uuid": "AVRTib4IcxW0xc3UIJvg",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "ClauseBuilder.java",
+      "longName": "src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/ClauseBuilder.java",
+      "path": "src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/ClauseBuilder.java",
+      "projectId": 165,
+      "subProjectId": 2776
+    },
+    {
+      "id": 3138,
+      "key": "generisk:mvc:src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/LimitOfIndemnityBuilder.java",
+      "uuid": "AVRTib4JcxW0xc3UIJvm",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "LimitOfIndemnityBuilder.java",
+      "longName": "src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/LimitOfIndemnityBuilder.java",
+      "path": "src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/LimitOfIndemnityBuilder.java",
+      "projectId": 165,
+      "subProjectId": 2776
+    },
+    {
+      "id": 3705,
+      "key": "generisk:web:src/main/java/ch/exm/opengenerisk/ui/flow/BindingBaseDynamicPropertyHandler.java",
+      "uuid": "AVRTib4pcxW0xc3UIJ4d",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "BindingBaseDynamicPropertyHandler.java",
+      "longName": "src/main/java/ch/exm/opengenerisk/ui/flow/BindingBaseDynamicPropertyHandler.java",
+      "path": "src/main/java/ch/exm/opengenerisk/ui/flow/BindingBaseDynamicPropertyHandler.java",
+      "projectId": 165,
+      "subProjectId": 3610
+    },
+    {
+      "id": 3137,
+      "key": "generisk:mvc:src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/ExtendedCoverageOrExclusionBuilder.java",
+      "uuid": "AVRTib4JcxW0xc3UIJvl",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "ExtendedCoverageOrExclusionBuilder.java",
+      "longName": "src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/ExtendedCoverageOrExclusionBuilder.java",
+      "path": "src/main/java/ch/exm/risk/converters/insuranceProductTemplate/builders/ExtendedCoverageOrExclusionBuilder.java",
+      "projectId": 165,
+      "subProjectId": 2776
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "total": {
+      "type": "integer",
+      "id": "total"
+    },
+    "p": {
+      "type": "integer",
+      "id": "p"
+    },
+    "ps": {
+      "type": "integer",
+      "id": "ps"
+    },
+    "paging": {
+      "type": "object",
+      "properties": {
+        "pageIndex": {
+          "type": "integer",
+          "id": "pageIndex"
+        },
+        "pageSize": {
+          "type": "integer",
+          "id": "pageSize"
+        },
+        "total": {
+          "type": "integer",
+          "id": "total"
+        }
+      },
+      "id": "paging",
+      "required": [
+        "pageIndex",
+        "pageSize",
+        "total"
+      ]
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "id": "key"
+          },
+          "rule": {
+            "type": "string",
+            "id": "rule"
+          },
+          "severity": {
+            "type": "string",
+            "id": "severity"
+          },
+          "component": {
+            "type": "string",
+            "id": "component"
+          },
+          "componentId": {
+            "type": "integer",
+            "id": "componentId"
+          },
+          "project": {
+            "type": "string",
+            "id": "project"
+          },
+          "subProject": {
+            "type": "string",
+            "id": "subProject"
+          },
+          "line": {
+            "type": "integer",
+            "id": "line"
+          },
+          "textRange": {
+            "type": "object",
+            "properties": {
+              "startLine": {
+                "type": "integer",
+                "id": "startLine"
+              },
+              "endLine": {
+                "type": "integer",
+                "id": "endLine"
+              },
+              "startOffset": {
+                "type": "integer",
+                "id": "startOffset"
+              },
+              "endOffset": {
+                "type": "integer",
+                "id": "endOffset"
+              }
+            },
+            "id": "textRange",
+            "required": [
+              "startLine",
+              "endLine",
+              "startOffset",
+              "endOffset"
+            ]
+          },
+          "flows": {
+            "type": "array",
+            "items": {},
+            "id": "flows"
+          },
+          "status": {
+            "type": "string",
+            "id": "status"
+          },
+          "message": {
+            "type": "string",
+            "id": "message"
+          },
+          "debt": {
+            "type": "string",
+            "id": "debt"
+          },
+          "author": {
+            "type": "string",
+            "id": "author"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "id": "tags"
+          },
+          "creationDate": {
+            "type": "string",
+            "id": "creationDate"
+          },
+          "updateDate": {
+            "type": "string",
+            "id": "updateDate"
+          }
+        },
+        "id": "99",
+        "required": [
+          "key",
+          "rule",
+          "severity",
+          "component",
+          "componentId",
+          "project",
+          "subProject",
+          "line",
+          "textRange",
+          "flows",
+          "status",
+          "message",
+          "debt",
+          "author",
+          "tags",
+          "creationDate",
+          "updateDate"
+        ]
+      },
+      "id": "issues"
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "id": "id"
+          },
+          "key": {
+            "type": "string",
+            "id": "key"
+          },
+          "uuid": {
+            "type": "string",
+            "id": "uuid"
+          },
+          "enabled": {
+            "type": "boolean",
+            "id": "enabled"
+          },
+          "qualifier": {
+            "type": "string",
+            "id": "qualifier"
+          },
+          "name": {
+            "type": "string",
+            "id": "name"
+          },
+          "longName": {
+            "type": "string",
+            "id": "longName"
+          },
+          "path": {
+            "type": "string",
+            "id": "path"
+          },
+          "projectId": {
+            "type": "integer",
+            "id": "projectId"
+          },
+          "subProjectId": {
+            "type": "integer",
+            "id": "subProjectId"
+          }
+        },
+        "id": "55",
+        "required": [
+          "id",
+          "key",
+          "uuid",
+          "enabled",
+          "qualifier",
+          "name",
+          "longName",
+          "path",
+          "projectId",
+          "subProjectId"
+        ]
+      },
+      "id": "components"
+    }
+  },
+  "id": "/",
+  "required": [
+    "total",
+    "p",
+    "ps",
+    "paging",
+    "issues",
+    "components"
+  ]
+}
