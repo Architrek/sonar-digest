@@ -26,7 +26,7 @@ import java.util.List;
  * <p>
  * Perfection is unachievable, I'm all right with Excellence
  * <p>
- * (c) White Andreetto Consulting 2016 All rights reserved
+ * (c) Architrek(c) Andreetto Consulting sonar-digest 2016 All rights reserved
  */
 @SpringBootApplication
 public class SonarQubeDigest implements CommandLineRunner {
