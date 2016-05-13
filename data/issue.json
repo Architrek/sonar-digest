@@ -1,0 +1,26 @@
+{
+  "key": "AVRTGijXcxW0xc3UII9Z",
+  "rule": "squid:S1166",
+  "severity": "CRITICAL",
+  "component": "exm:ger-services-persistence:src/main/java/ch/exm/ger/services/dao/impl/ImportCwhClaimsDaoImpl.java",
+  "componentId": 45,
+  "project": "exm:ger-services",
+  "subProject": "exm:ger-services-persistence",
+  "line": 72,
+  "textRange": {
+    "startLine": 72,
+    "endLine": 72,
+    "startOffset": 11,
+    "endOffset": 22
+  },
+  "flows": [],
+  "status": "OPEN",
+  "message": "Either log or rethrow this exception.",
+  "debt": "10min",
+  "author": "marco.celeri@exmachina.ch",
+  "tags": [
+    "error-handling"
+  ],
+  "creationDate": "2016-04-26T17:04:39+0200",
+  "updateDate": "2016-04-26T17:04:39+0200"
+}

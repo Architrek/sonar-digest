@@ -1,0 +1,918 @@
+{
+  "total": 27,
+  "p": 1,
+  "ps": 100,
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 100,
+    "total": 27
+  },
+  "issues": [
+    {
+      "key": "AVRTGijXcxW0xc3UII9Z",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-persistence:src/main/java/ch/exm/ger/services/dao/impl/ImportCwhClaimsDaoImpl.java",
+      "componentId": 45,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-persistence",
+      "line": 72,
+      "textRange": {
+        "startLine": 72,
+        "endLine": 72,
+        "startOffset": 11,
+        "endOffset": 22
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "marco.celeri@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGin9cxW0xc3UII-S",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/email/CWHImportErrorMailSender.java",
+      "componentId": 82,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 33,
+      "textRange": {
+        "startLine": 33,
+        "endLine": 33,
+        "startOffset": 11,
+        "endOffset": 22
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "marco.celeri@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGip9cxW0xc3UII-n",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/importclaims/impl/validators/CWHArchiveValidator.java",
+      "componentId": 101,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 29,
+      "textRange": {
+        "startLine": 29,
+        "endLine": 29,
+        "startOffset": 11,
+        "endOffset": 37
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "marco.celeri@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGipWcxW0xc3UII-d",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/importclaims/impl/ClaimConverter.java",
+      "componentId": 96,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 85,
+      "textRange": {
+        "startLine": 85,
+        "endLine": 85,
+        "startOffset": 9,
+        "endOffset": 20
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "marco.celeri@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGipXcxW0xc3UII-e",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/importclaims/impl/ClaimConverter.java",
+      "componentId": 96,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 100,
+      "textRange": {
+        "startLine": 100,
+        "endLine": 100,
+        "startOffset": 9,
+        "endOffset": 20
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "marco.celeri@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGipXcxW0xc3UII-f",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/importclaims/impl/ClaimConverter.java",
+      "componentId": 96,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 110,
+      "textRange": {
+        "startLine": 110,
+        "endLine": 110,
+        "startOffset": 9,
+        "endOffset": 20
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "marco.celeri@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGipgcxW0xc3UII-i",
+      "rule": "squid:S2095",
+      "severity": "BLOCKER",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/importclaims/impl/DefaultCWHClaimCsvParser.java",
+      "componentId": 97,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 29,
+      "textRange": {
+        "startLine": 29,
+        "endLine": 29,
+        "startOffset": 44,
+        "endOffset": 72
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Close this \"FileInputStream\".",
+      "debt": "5min",
+      "author": "matteo.cerina@exmachina.ch",
+      "tags": [
+        "bug",
+        "cert",
+        "cwe",
+        "denial-of-service",
+        "leak",
+        "security"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGiprcxW0xc3UII-l",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/importclaims/impl/ImportCwhClaimsServiceImpl.java",
+      "componentId": 98,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 102,
+      "textRange": {
+        "startLine": 102,
+        "endLine": 102,
+        "startOffset": 11,
+        "endOffset": 32
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "marco.celeri@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGiprcxW0xc3UII-m",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/importclaims/impl/ImportCwhClaimsServiceImpl.java",
+      "componentId": 98,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 104,
+      "textRange": {
+        "startLine": 104,
+        "endLine": 104,
+        "startOffset": 11,
+        "endOffset": 38
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "marco.celeri@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGirjcxW0xc3UII-1",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/rest/auth/TokenController.java",
+      "componentId": 117,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 35,
+      "textRange": {
+        "startLine": 35,
+        "endLine": 35,
+        "startOffset": 11,
+        "endOffset": 40
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGirlcxW0xc3UII-2",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/rest/auth/TokenController.java",
+      "componentId": 117,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 37,
+      "textRange": {
+        "startLine": 37,
+        "endLine": 37,
+        "startOffset": 11,
+        "endOffset": 22
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGirlcxW0xc3UII-3",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/rest/auth/TokenController.java",
+      "componentId": 117,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 48,
+      "textRange": {
+        "startLine": 48,
+        "endLine": 48,
+        "startOffset": 11,
+        "endOffset": 22
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGis5cxW0xc3UII_Z",
+      "rule": "squid:S00112",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/soap/programupdate/GeRProgramUpdateServiceImpl.java",
+      "componentId": 126,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 57,
+      "textRange": {
+        "startLine": 57,
+        "endLine": 57,
+        "startOffset": 13,
+        "endOffset": 29
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Define and throw a dedicated exception instead of using a generic one.",
+      "debt": "20min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGis6cxW0xc3UII_a",
+      "rule": "squid:S00112",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/soap/programupdate/GeRProgramUpdateServiceImpl.java",
+      "componentId": 126,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 66,
+      "textRange": {
+        "startLine": 66,
+        "endLine": 66,
+        "startOffset": 13,
+        "endOffset": 29
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Define and throw a dedicated exception instead of using a generic one.",
+      "debt": "20min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGis6cxW0xc3UII_b",
+      "rule": "squid:S00112",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/soap/programupdate/GeRProgramUpdateServiceImpl.java",
+      "componentId": 126,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 79,
+      "textRange": {
+        "startLine": 79,
+        "endLine": 79,
+        "startOffset": 13,
+        "endOffset": 29
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Define and throw a dedicated exception instead of using a generic one.",
+      "debt": "20min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGis7cxW0xc3UII_c",
+      "rule": "squid:S00112",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/soap/programupdate/GeRProgramUpdateServiceImpl.java",
+      "componentId": 126,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 90,
+      "textRange": {
+        "startLine": 90,
+        "endLine": 90,
+        "startOffset": 15,
+        "endOffset": 31
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Define and throw a dedicated exception instead of using a generic one.",
+      "debt": "20min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGis8cxW0xc3UII_d",
+      "rule": "squid:S00112",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/soap/programupdate/GeRProgramUpdateServiceImpl.java",
+      "componentId": 126,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 96,
+      "textRange": {
+        "startLine": 96,
+        "endLine": 96,
+        "startOffset": 16,
+        "endOffset": 32
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Define and throw a dedicated exception instead of using a generic one.",
+      "debt": "20min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGis8cxW0xc3UII_e",
+      "rule": "squid:S00112",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/soap/programupdate/GeRProgramUpdateServiceImpl.java",
+      "componentId": 126,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 126,
+      "textRange": {
+        "startLine": 126,
+        "endLine": 126,
+        "startOffset": 14,
+        "endOffset": 30
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Define and throw a dedicated exception instead of using a generic one.",
+      "debt": "20min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGisEcxW0xc3UII-_",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/rest/csp/CSPController.java",
+      "componentId": 121,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 76,
+      "textRange": {
+        "startLine": 76,
+        "endLine": 76,
+        "startOffset": 11,
+        "endOffset": 45
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGisFcxW0xc3UII_A",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/rest/csp/CSPController.java",
+      "componentId": 121,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 78,
+      "textRange": {
+        "startLine": 78,
+        "endLine": 78,
+        "startOffset": 11,
+        "endOffset": 22
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGisGcxW0xc3UII_B",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/rest/csp/CSPController.java",
+      "componentId": 121,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 88,
+      "textRange": {
+        "startLine": 88,
+        "endLine": 88,
+        "startOffset": 11,
+        "endOffset": 35
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGisHcxW0xc3UII_C",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/rest/csp/CSPController.java",
+      "componentId": 121,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 97,
+      "textRange": {
+        "startLine": 97,
+        "endLine": 97,
+        "startOffset": 11,
+        "endOffset": 35
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGisIcxW0xc3UII_D",
+      "rule": "squid:S1166",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/rest/csp/CSPController.java",
+      "componentId": 121,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 99,
+      "textRange": {
+        "startLine": 99,
+        "endLine": 99,
+        "startOffset": 11,
+        "endOffset": 39
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either log or rethrow this exception.",
+      "debt": "10min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "error-handling"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGiupcxW0xc3UII_8",
+      "rule": "squid:S2142",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/spi/impl/TokenKiller.java",
+      "componentId": 141,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 44,
+      "textRange": {
+        "startLine": 44,
+        "endLine": 44,
+        "startOffset": 12,
+        "endOffset": 34
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Either re-interrupt this method or rethrow the \"InterruptedException\".",
+      "debt": "15min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "bug",
+        "cwe",
+        "multi-threading"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGiv2cxW0xc3UIJAK",
+      "rule": "squid:S00112",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/util/Util.java",
+      "componentId": 146,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 113,
+      "textRange": {
+        "startLine": 113,
+        "endLine": 113,
+        "startOffset": 12,
+        "endOffset": 28
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Define and throw a dedicated exception instead of using a generic one.",
+      "debt": "20min",
+      "author": "matteo.cerina@exmachina.ch",
+      "tags": [
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGivGcxW0xc3UIJAD",
+      "rule": "squid:S00112",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/util/Md5.java",
+      "componentId": 145,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 12,
+      "textRange": {
+        "startLine": 12,
+        "endLine": 12,
+        "startOffset": 13,
+        "endOffset": 29
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Define and throw a dedicated exception instead of using a generic one.",
+      "debt": "20min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    },
+    {
+      "key": "AVRTGivJcxW0xc3UIJAE",
+      "rule": "squid:S00112",
+      "severity": "CRITICAL",
+      "component": "exm:ger-services-http:src/main/java/ch/exm/ger/services/util/Md5.java",
+      "componentId": 145,
+      "project": "exm:ger-services",
+      "subProject": "exm:ger-services-http",
+      "line": 16,
+      "textRange": {
+        "startLine": 16,
+        "endLine": 16,
+        "startOffset": 49,
+        "endOffset": 58
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Define and throw a dedicated exception instead of using a generic one.",
+      "debt": "20min",
+      "author": "giuliano.forlini@exmachina.ch",
+      "tags": [
+        "cwe",
+        "error-handling",
+        "security"
+      ],
+      "creationDate": "2016-04-26T17:04:39+0200",
+      "updateDate": "2016-04-26T17:04:39+0200"
+    }
+  ],
+  "components": [
+    {
+      "id": 63,
+      "key": "exm:ger-services-http",
+      "uuid": "AVRTGiOqcxW0xc3UII8p",
+      "enabled": true,
+      "qualifier": "BRC",
+      "name": "ger-services-http",
+      "longName": "ger-services-http",
+      "path": "ger-services-http",
+      "projectId": 1,
+      "subProjectId": 1
+    },
+    {
+      "id": 146,
+      "key": "exm:ger-services-http:src/main/java/ch/exm/ger/services/util/Util.java",
+      "uuid": "AVRTGiOocxW0xc3UII8V",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "Util.java",
+      "longName": "src/main/java/ch/exm/ger/services/util/Util.java",
+      "path": "src/main/java/ch/exm/ger/services/util/Util.java",
+      "projectId": 1,
+      "subProjectId": 63
+    },
+    {
+      "id": 145,
+      "key": "exm:ger-services-http:src/main/java/ch/exm/ger/services/util/Md5.java",
+      "uuid": "AVRTGiOocxW0xc3UII8U",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "Md5.java",
+      "longName": "src/main/java/ch/exm/ger/services/util/Md5.java",
+      "path": "src/main/java/ch/exm/ger/services/util/Md5.java",
+      "projectId": 1,
+      "subProjectId": 63
+    },
+    {
+      "id": 121,
+      "key": "exm:ger-services-http:src/main/java/ch/exm/ger/services/rest/csp/CSPController.java",
+      "uuid": "AVRTGiOmcxW0xc3UII78",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "CSPController.java",
+      "longName": "src/main/java/ch/exm/ger/services/rest/csp/CSPController.java",
+      "path": "src/main/java/ch/exm/ger/services/rest/csp/CSPController.java",
+      "projectId": 1,
+      "subProjectId": 63
+    },
+    {
+      "id": 126,
+      "key": "exm:ger-services-http:src/main/java/ch/exm/ger/services/soap/programupdate/GeRProgramUpdateServiceImpl.java",
+      "uuid": "AVRTGiOncxW0xc3UII8B",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "GeRProgramUpdateServiceImpl.java",
+      "longName": "src/main/java/ch/exm/ger/services/soap/programupdate/GeRProgramUpdateServiceImpl.java",
+      "path": "src/main/java/ch/exm/ger/services/soap/programupdate/GeRProgramUpdateServiceImpl.java",
+      "projectId": 1,
+      "subProjectId": 63
+    },
+    {
+      "id": 117,
+      "key": "exm:ger-services-http:src/main/java/ch/exm/ger/services/rest/auth/TokenController.java",
+      "uuid": "AVRTGiOmcxW0xc3UII74",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "TokenController.java",
+      "longName": "src/main/java/ch/exm/ger/services/rest/auth/TokenController.java",
+      "path": "src/main/java/ch/exm/ger/services/rest/auth/TokenController.java",
+      "projectId": 1,
+      "subProjectId": 63
+    },
+    {
+      "id": 1,
+      "key": "exm:ger-services",
+      "uuid": "AVRTGh7FcxW0xc3UII6C",
+      "enabled": true,
+      "qualifier": "TRK",
+      "name": "ger-services",
+      "longName": "ger-services"
+    },
+    {
+      "id": 82,
+      "key": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/email/CWHImportErrorMailSender.java",
+      "uuid": "AVRTGiOjcxW0xc3UII7V",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "CWHImportErrorMailSender.java",
+      "longName": "src/main/java/ch/exm/ger/services/cwh/email/CWHImportErrorMailSender.java",
+      "path": "src/main/java/ch/exm/ger/services/cwh/email/CWHImportErrorMailSender.java",
+      "projectId": 1,
+      "subProjectId": 63
+    },
+    {
+      "id": 45,
+      "key": "exm:ger-services-persistence:src/main/java/ch/exm/ger/services/dao/impl/ImportCwhClaimsDaoImpl.java",
+      "uuid": "AVRTGiOgcxW0xc3UII6w",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "ImportCwhClaimsDaoImpl.java",
+      "longName": "src/main/java/ch/exm/ger/services/dao/impl/ImportCwhClaimsDaoImpl.java",
+      "path": "src/main/java/ch/exm/ger/services/dao/impl/ImportCwhClaimsDaoImpl.java",
+      "projectId": 1,
+      "subProjectId": 19
+    },
+    {
+      "id": 97,
+      "key": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/importclaims/impl/DefaultCWHClaimCsvParser.java",
+      "uuid": "AVRTGiOkcxW0xc3UII7k",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "DefaultCWHClaimCsvParser.java",
+      "longName": "src/main/java/ch/exm/ger/services/cwh/importclaims/impl/DefaultCWHClaimCsvParser.java",
+      "path": "src/main/java/ch/exm/ger/services/cwh/importclaims/impl/DefaultCWHClaimCsvParser.java",
+      "projectId": 1,
+      "subProjectId": 63
+    },
+    {
+      "id": 19,
+      "key": "exm:ger-services-persistence",
+      "uuid": "AVRTGiOhcxW0xc3UII7D",
+      "enabled": true,
+      "qualifier": "BRC",
+      "name": "ger-services-persistence",
+      "longName": "ger-services-persistence",
+      "path": "ger-services-persistence",
+      "projectId": 1,
+      "subProjectId": 1
+    },
+    {
+      "id": 98,
+      "key": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/importclaims/impl/ImportCwhClaimsServiceImpl.java",
+      "uuid": "AVRTGiOkcxW0xc3UII7l",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "ImportCwhClaimsServiceImpl.java",
+      "longName": "src/main/java/ch/exm/ger/services/cwh/importclaims/impl/ImportCwhClaimsServiceImpl.java",
+      "path": "src/main/java/ch/exm/ger/services/cwh/importclaims/impl/ImportCwhClaimsServiceImpl.java",
+      "projectId": 1,
+      "subProjectId": 63
+    },
+    {
+      "id": 141,
+      "key": "exm:ger-services-http:src/main/java/ch/exm/ger/services/spi/impl/TokenKiller.java",
+      "uuid": "AVRTGiOocxW0xc3UII8Q",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "TokenKiller.java",
+      "longName": "src/main/java/ch/exm/ger/services/spi/impl/TokenKiller.java",
+      "path": "src/main/java/ch/exm/ger/services/spi/impl/TokenKiller.java",
+      "projectId": 1,
+      "subProjectId": 63
+    },
+    {
+      "id": 101,
+      "key": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/importclaims/impl/validators/CWHArchiveValidator.java",
+      "uuid": "AVRTGiOlcxW0xc3UII7o",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "CWHArchiveValidator.java",
+      "longName": "src/main/java/ch/exm/ger/services/cwh/importclaims/impl/validators/CWHArchiveValidator.java",
+      "path": "src/main/java/ch/exm/ger/services/cwh/importclaims/impl/validators/CWHArchiveValidator.java",
+      "projectId": 1,
+      "subProjectId": 63
+    },
+    {
+      "id": 96,
+      "key": "exm:ger-services-http:src/main/java/ch/exm/ger/services/cwh/importclaims/impl/ClaimConverter.java",
+      "uuid": "AVRTGiOkcxW0xc3UII7j",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "ClaimConverter.java",
+      "longName": "src/main/java/ch/exm/ger/services/cwh/importclaims/impl/ClaimConverter.java",
+      "path": "src/main/java/ch/exm/ger/services/cwh/importclaims/impl/ClaimConverter.java",
+      "projectId": 1,
+      "subProjectId": 63
+    }
+  ]
+}

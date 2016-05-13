@@ -1,26 +1,21 @@
-package digest;
+package com.architrek.projects.qa.sonar;
 
-import com.architrek.projects.samples.rest.sonar.Component;
-import com.architrek.projects.samples.rest.sonar.Issue;
-import com.architrek.projects.samples.rest.sonar.Issues;
-import com.architrek.projects.samples.rest.sonar.Paging;
+import com.architrek.projects.qa.sonar.rest.json.Component;
+import com.architrek.projects.qa.sonar.rest.json.Issue;
+import com.architrek.projects.qa.sonar.rest.json.Issues;
+import com.architrek.projects.qa.sonar.rest.json.Paging;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.core.ParameterizedTypeReference;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.client.RestTemplate;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -37,19 +32,10 @@ import java.util.List;
 public class SonarQubeDigest implements CommandLineRunner {
 
     private static final Logger log = LoggerFactory.getLogger(SonarQubeDigest.class);
-
-    @Value("${SEVERITY}")
-    private String SEVERITY;
-
+    @Autowired
+    SonarQubeClient sonarQubeClient;
     @Value("${OUTPUT_LOCATION}")
     private String OUTPUT_LOCATION;
-
-    @Value("${COMPONENTS_URI}")
-    private String COMPONENTS_URI;
-
-    @Value("${ISSUES_URI}")
-    private String ISSUES_URI;
-
 
     /**
      * Makes this Application runnable
@@ -72,7 +58,7 @@ public class SonarQubeDigest implements CommandLineRunner {
 
         log.info("Starting execution");
 
-        List<Component> components = getComponents();
+        List<Component> components = sonarQubeClient.getComponents();
 
 
         for (Component component : components) {
@@ -82,7 +68,7 @@ public class SonarQubeDigest implements CommandLineRunner {
 
             // we start with page one Issues
             int currentPage = 1;
-            final Issues issuesPageOne = getIssues(component, currentPage);
+            final Issues issuesPageOne = sonarQubeClient.getIssues(component, currentPage);
             allPages.addAll(issuesPageOne.getIssues());
 
 
@@ -94,7 +80,7 @@ public class SonarQubeDigest implements CommandLineRunner {
 
                 while (pages > currentPage) {
                     currentPage++;
-                    allPages.addAll(getIssues(component, currentPage).getIssues());
+                    allPages.addAll(sonarQubeClient.getIssues(component, currentPage).getIssues());
                 }
 
             }
@@ -102,8 +88,7 @@ public class SonarQubeDigest implements CommandLineRunner {
             try {
                 writeItDown(component, allPages);
             } catch (SonarQubeDigestException e) {
-                log.error("Execution terminated abnormally, check the stack trace for info");
-                e.printStackTrace();
+                log.error("Execution terminated abnormally, check the stack trace for info", e);
             }
         }
     }
@@ -151,32 +136,5 @@ public class SonarQubeDigest implements CommandLineRunner {
     }
 
 
-    /**
-     * Loads all Issues for a configured severity for the selected component
-     *
-     * @param component The Sonar COmponent to query about
-     * @param page      The page we want to retrieve
-     * @return All Issues belonging to the given component
-     * @throws URISyntaxException IF the SonarQube URI is not correct
-     */
-    private Issues getIssues(Component component, int page) throws URISyntaxException {
-
-        final URI uri = new URI(String.format(ISSUES_URI, component.getKey(), SEVERITY, page));
-        final RestTemplate anotherRestTemplate = new RestTemplate();
-        return anotherRestTemplate.getForObject(uri, Issues.class);
-    }
-
-
-    /**
-     * This method returns the list of all components configured in SonarQube instance
-     *
-     * @return
-     */
-    private List<Component> getComponents() {
-        ResponseEntity<List<Component>> componentResponse = new RestTemplate().exchange(COMPONENTS_URI,
-                HttpMethod.GET, null, new ParameterizedTypeReference<List<Component>>() {
-                });
-        return componentResponse.getBody();
-    }
 
 }

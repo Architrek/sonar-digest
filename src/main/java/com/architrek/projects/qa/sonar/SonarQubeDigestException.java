@@ -1,4 +1,4 @@
-package digest;
+package com.architrek.projects.qa.sonar;
 
 /**
  * Created by AANG on 13/05/16/09:18.

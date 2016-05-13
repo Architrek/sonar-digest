@@ -1,6 +1,7 @@
-package digest;
+package com.architrek.projects.qa.sonar;
 
-import com.architrek.projects.samples.rest.sonar.Issue;
+
+import com.architrek.projects.qa.sonar.rest.json.Issue;
 
 import java.util.List;
 
