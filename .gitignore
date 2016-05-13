@@ -1,0 +1,12 @@
+target/
+.project
+.classpath
+.settings
+data/results
+
+## File-based project format:
+*.ipr
+*.iws
+*.iml
+*.log
+.idea

@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79390c4a-fc21-4149-a734-bbed17394af8" name="Default" comment="" />
+    <list default="true" id="79390c4a-fc21-4149-a734-bbed17394af8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/config/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/schema/json/resources.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/digest/SonarQubeDigest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/digest/SonarQubeDigestException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/digest/SonarQubeDigestUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/git.ignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/data/sonar.response.blocker.p1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/data/sonar.response.blocker.p2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/data/sonar.response.blocker.p3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/data/sonar.response.blocker.p4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/architrek/projects/qa/LoaderTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/schema/blocker.schema.json" afterPath="$PROJECT_DIR$/data/schema/json/Issues.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sonar-digest.iml" afterPath="$PROJECT_DIR$/sonar-digest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sonar-digest.ipr" afterPath="$PROJECT_DIR$/sonar-digest.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sonar-digest.iws" afterPath="$PROJECT_DIR$/sonar-digest.iws" />
+    </list>
     <ignored path="sonar-digest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,138 +42,33 @@
     <favorites_list name="sonar-digest" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BlockerSchema.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/generated-sources/com/architrek/projects/qa/BlockerSchema.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SonarQubeDigest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/digest/SonarQubeDigest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1256">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoaderTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/architrek/projects/qa/LoaderTest.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="264" column="18" selection-start-line="264" selection-start-column="18" selection-end-line="264" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sonar.response.blocker.p1.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/data/sonar.response.blocker.p1.json">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-              <folding>
-                <element signature="e#986#1833#0" expanded="false" />
-                <element signature="e#1839#2686#0" expanded="false" />
-                <element signature="e#2692#3539#0" expanded="false" />
-                <element signature="e#3545#4404#0" expanded="false" />
-                <element signature="e#4410#5319#0" expanded="false" />
-                <element signature="e#5325#6090#0" expanded="false" />
-                <element signature="e#6096#6952#0" expanded="false" />
-                <element signature="e#6958#7814#0" expanded="false" />
-                <element signature="e#7820#8658#0" expanded="false" />
-                <element signature="e#8664#9476#0" expanded="false" />
-                <element signature="e#9482#10315#0" expanded="false" />
-                <element signature="e#10321#11154#0" expanded="false" />
-                <element signature="e#11160#11978#0" expanded="false" />
-                <element signature="e#11984#12810#0" expanded="false" />
-                <element signature="e#12816#13642#0" expanded="false" />
-                <element signature="e#13648#14474#0" expanded="false" />
-                <element signature="e#14480#15306#0" expanded="false" />
-                <element signature="e#15312#16138#0" expanded="false" />
-                <element signature="e#16144#16970#0" expanded="false" />
-                <element signature="e#16976#17814#0" expanded="false" />
-                <element signature="e#17820#18659#0" expanded="false" />
-                <element signature="e#18665#19504#0" expanded="false" />
-                <element signature="e#19510#20349#0" expanded="false" />
-                <element signature="e#20355#21195#0" expanded="false" />
-                <element signature="e#21201#22043#0" expanded="false" />
-                <element signature="e#22049#22889#0" expanded="false" />
-                <element signature="e#22895#23734#0" expanded="false" />
-                <element signature="e#23740#24579#0" expanded="false" />
-                <element signature="e#24585#25424#0" expanded="false" />
-                <element signature="e#25430#26269#0" expanded="false" />
-                <element signature="e#26275#27114#0" expanded="false" />
-                <element signature="e#27120#27959#0" expanded="false" />
-                <element signature="e#27965#28804#0" expanded="false" />
-                <element signature="e#28810#29652#0" expanded="false" />
-                <element signature="e#29658#30497#0" expanded="false" />
-                <element signature="e#30503#31343#0" expanded="false" />
-                <element signature="e#31349#32188#0" expanded="false" />
-                <element signature="e#32194#33033#0" expanded="false" />
-                <element signature="e#33039#33881#0" expanded="false" />
-                <element signature="e#33887#34726#0" expanded="false" />
-                <element signature="e#34732#35571#0" expanded="false" />
-                <element signature="e#35577#36495#0" expanded="false" />
-                <element signature="e#36501#37337#0" expanded="false" />
-                <element signature="e#37343#38552#0" expanded="false" />
-                <element signature="e#38558#39415#0" expanded="false" />
-                <element signature="e#39421#40362#0" expanded="false" />
-                <element signature="e#40368#41314#0" expanded="false" />
-                <element signature="e#41320#42171#0" expanded="false" />
-                <element signature="e#42177#43028#0" expanded="false" />
-                <element signature="e#43034#43879#0" expanded="false" />
-                <element signature="e#43885#44733#0" expanded="false" />
-                <element signature="e#44739#45583#0" expanded="false" />
-                <element signature="e#45589#46453#0" expanded="false" />
-                <element signature="e#46459#47323#0" expanded="false" />
-                <element signature="e#47329#48251#0" expanded="false" />
-                <element signature="e#48257#49129#0" expanded="false" />
-                <element signature="e#49135#49982#0" expanded="false" />
-                <element signature="e#49988#50835#0" expanded="false" />
-                <element signature="e#50841#51686#0" expanded="false" />
-                <element signature="e#51692#52624#0" expanded="false" />
-                <element signature="e#52630#53457#0" expanded="false" />
-                <element signature="e#53463#54328#0" expanded="false" />
-                <element signature="e#54334#55139#0" expanded="false" />
-                <element signature="e#55145#55997#0" expanded="false" />
-                <element signature="e#56003#56845#0" expanded="false" />
-                <element signature="e#56851#57695#0" expanded="false" />
-                <element signature="e#57701#58534#0" expanded="false" />
-                <element signature="e#58540#59397#0" expanded="false" />
-                <element signature="e#59403#60262#0" expanded="false" />
-                <element signature="e#60268#61468#0" expanded="false" />
-                <element signature="e#61474#62238#0" expanded="false" />
-                <element signature="e#62244#63169#0" expanded="false" />
-                <element signature="e#63175#64100#0" expanded="false" />
-                <element signature="e#64106#64943#0" expanded="false" />
-                <element signature="e#64949#65787#0" expanded="false" />
-                <element signature="e#65793#66633#0" expanded="false" />
-                <element signature="e#66639#67476#0" expanded="false" />
-                <element signature="e#67482#68319#0" expanded="false" />
-                <element signature="e#68325#69165#0" expanded="false" />
-                <element signature="e#69171#70011#0" expanded="false" />
-                <element signature="e#70017#70854#0" expanded="false" />
-                <element signature="e#70860#71703#0" expanded="false" />
-                <element signature="e#71709#72551#0" expanded="false" />
-                <element signature="e#72557#73399#0" expanded="false" />
-                <element signature="e#73405#74251#0" expanded="false" />
-                <element signature="e#74257#75103#0" expanded="false" />
-                <element signature="e#75109#75936#0" expanded="false" />
-                <element signature="e#75942#76810#0" expanded="false" />
-                <element signature="e#76816#77700#0" expanded="false" />
-                <element signature="e#77706#78921#0" expanded="false" />
-                <element signature="e#78927#79781#0" expanded="false" />
-                <element signature="e#79787#80556#0" expanded="false" />
-                <element signature="e#80562#81420#0" expanded="false" />
-                <element signature="e#81426#82653#0" expanded="false" />
-                <element signature="e#82659#83434#0" expanded="false" />
-                <element signature="e#83440#84665#0" expanded="false" />
-                <element signature="e#84671#85533#0" expanded="false" />
-                <element signature="e#85539#86316#0" expanded="false" />
-                <element signature="e#86322#87188#0" expanded="false" />
-                <element signature="e#87210#114017#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,6 +82,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -178,25 +95,35 @@
       <list>
         <option value="$PROJECT_DIR$/src/data/blocker.schema.json" />
         <option value="$PROJECT_DIR$/target/generated-sources/com/architrek/projects/qa/BlockerSchema.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/architrek/projects/qa/LoaderTest.java" />
         <option value="$PROJECT_DIR$/src/data/sonar.response.blocker.json" />
         <option value="$PROJECT_DIR$/src/data/sonar.response.blocker.p2.json" />
         <option value="$PROJECT_DIR$/src/data/sonar.response.blocker.p3.json" />
         <option value="$PROJECT_DIR$/src/data/sonar.response.blocker.p4.json" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/architrek/projects/qa/ConfigLoader.java" />
+        <option value="$PROJECT_DIR$/src/data/schema/sonar.resouces.xsd" />
+        <option value="$PROJECT_DIR$/src/data/schema/sonar.response.resources.json" />
+        <option value="$PROJECT_DIR$/src/data/schema/json/resources.schema.json" />
+        <option value="$PROJECT_DIR$/src/test/java/com/architrek/projects/qa/LoaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/architrek/projects/qa/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/digest/SonarQubeDigest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Bundled (Maven 3)" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../../tools/apache/maven/apache-maven-3.0.5/conf/settings.xml" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../tools/apache/maven/apache-maven-3.0.5/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -206,12 +133,57 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SonarQubeDigest" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SonarQubeDigest" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SonarQubeDigest" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
+    <option name="x" value="8" />
     <option name="y" value="23" />
-    <option name="width" value="1415" />
+    <option name="width" value="1194" />
     <option name="height" value="851" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -239,9 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,37 +240,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonar-digest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonar-digest" />
+              <option name="myItemId" value="schema" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qa" />
+              <option name="myItemId" value="json" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,48 +259,67 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sonar-digest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonar-digest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonar-digest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonar-digest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonar-digest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/src/data" />
+      <recent name="$PROJECT_DIR$/src/data/schema/xsd" />
+      <recent name="$PROJECT_DIR$/src/data/schema/json" />
       <recent name="$PROJECT_DIR$/src/data/schema" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/data/results" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoaderTest.testLoading">
+  <component name="RunManager" selected="Spring Boot.SonarQubeDigest">
     <configuration default="false" name="LoaderTest.testLoading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -367,6 +334,110 @@
       <option name="MAIN_CLASS_NAME" value="com.architrek.projects.qa.LoaderTest" />
       <option name="METHOD_NAME" value="testLoading" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoaderTest.testUrlJAxb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.architrek.projects.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sonar-digest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.architrek.projects.qa" />
+      <option name="MAIN_CLASS_NAME" value="com.architrek.projects.qa.LoaderTest" />
+      <option name="METHOD_NAME" value="testUrlJAxb" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoaderTest.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.architrek.projects.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sonar-digest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.architrek.projects.qa" />
+      <option name="MAIN_CLASS_NAME" value="com.architrek.projects.qa.LoaderTest" />
+      <option name="METHOD_NAME" value="testConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoaderTest.testLoadingResources" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.architrek.projects.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sonar-digest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.architrek.projects.qa" />
+      <option name="MAIN_CLASS_NAME" value="com.architrek.projects.qa.LoaderTest" />
+      <option name="METHOD_NAME" value="testLoadingResources" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.architrek.projects.qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sonar-digest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.architrek.projects.qa" />
+      <option name="MAIN_CLASS_NAME" value="com.architrek.projects.qa.LoaderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -572,6 +643,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -581,12 +658,36 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LoaderTest.testLoading" />
+    <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.architrek.projects.qa.Application" />
+      <module name="sonar-digest" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SonarQubeDigest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="digest.SonarQubeDigest" />
+      <module name="sonar-digest" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LoaderTest.testLoading" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LoaderTest.testUrlJAxb" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LoaderTest.testConnection" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LoaderTest.testLoadingResources" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.LoaderTest" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.SonarQubeDigest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LoaderTest.testLoading" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LoaderTest.testLoadingResources" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LoaderTest.testLoading" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LoaderTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LoaderTest.testConnection" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LoaderTest.testUrlJAxb" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -602,56 +703,100 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TestHistory">
-    <history-entry file="LoaderTest_testLoading - 2016.05.10 at 16h 22m 22s.xml">
+    <history-entry file="LoaderTest_testLoading - 2016.05.12 at 10h 10m 07s.xml">
       <configuration name="LoaderTest.testLoading" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoaderTest_testLoadingResources - 2016.05.10 at 17h 54m 51s.xml">
+      <configuration name="LoaderTest.testLoadingResources" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoaderTest_testLoadingResources - 2016.05.10 at 17h 55m 23s.xml">
+      <configuration name="LoaderTest.testLoadingResources" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoaderTest_testLoadingResources - 2016.05.10 at 17h 56m 14s.xml">
+      <configuration name="LoaderTest.testLoadingResources" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoaderTest_testLoadingResources - 2016.05.10 at 17h 57m 52s.xml">
+      <configuration name="LoaderTest.testLoadingResources" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoaderTest_testLoadingResources - 2016.05.10 at 17h 59m 13s.xml">
+      <configuration name="LoaderTest.testLoadingResources" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoaderTest_testLoadingResources - 2016.05.12 at 10h 10m 19s.xml">
+      <configuration name="LoaderTest.testLoadingResources" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoaderTest_testLoadingResources - 2016.05.12 at 10h 20m 41s.xml">
+      <configuration name="LoaderTest.testLoadingResources" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoaderTest_testLoadingResources - 2016.05.12 at 10h 21m 59s.xml">
+      <configuration name="LoaderTest.testLoadingResources" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoaderTest_testLoadingResources - 2016.05.13 at 12h 29m 01s.xml">
+      <configuration name="LoaderTest.testLoadingResources" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="23" width="1415" height="851" extended-state="0" />
+    <frame x="8" y="23" width="1194" height="851" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993445" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981792" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29774305" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981792" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61255115" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette " active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Baseline Take 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Baseline Take 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/architrek/projects/qa/LoaderTest.java</url>
-          <line>21</line>
+          <line>24</line>
           <properties />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -660,67 +805,72 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/data/message1.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/architrek/projects/qa/LoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
+    <entry file="file://$PROJECT_DIR$/src/data/sonar.response.blocker.p1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/schema/blocker.schema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
-          <caret line="236" column="1" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/architreck/projects/generisk/generisk-sonarqube/0.0.8-SNAPSHOT/generisk-sonarqube-0.0.8-SNAPSHOT.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        <state relative-caret-position="45">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="95" column="71" selection-start-line="95" selection-start-column="71" selection-end-line="95" selection-end-column="71" />
-          <folding>
-            <element signature="n#exclusions#0;n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#exclusions#0;n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#exclusions#0;n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#exclusions#0;n#dependency#4;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#exclusions#0;n#dependency#5;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#exclusions#0;n#dependency#6;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#exclusions#0;n#dependency#7;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#exclusions#0;n#dependency#8;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#exclusions#0;n#dependency#12;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#exclusions#0;n#dependency#13;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/com/architrek/projects/qa/BlockerSchema.java">
+    <entry file="file://$PROJECT_DIR$/src/data/schema/xsd/sonar.resouces.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1256">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/architrek/projects/qa/ConfigLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/architrek/projects/qa/LoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/sonar.response.blocker.p1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/message1.xml" />
+    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <entry file="file://$MAVEN_REPOSITORY$/com/architreck/projects/generisk/generisk-sonarqube/0.0.8-SNAPSHOT/generisk-sonarqube-0.0.8-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/com/architrek/projects/qa/BlockerSchema.java" />
     <entry file="file://$PROJECT_DIR$/src/data/sonar.response.blocker.p4.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -745,13 +895,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/architrek/projects/qa/LoaderTest.java">
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="690">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findbugs-security-exclude.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -759,110 +914,265 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/jaxb/com/architrek/projects/qa/Resources.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/com/architrek/projects/qa/ResourcesSchema.java" />
+    <entry file="file://$PROJECT_DIR$/src/data/schema/json/Issues.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="236" column="1" selection-start-line="236" selection-start-column="1" selection-end-line="236" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="151" column="11" selection-start-line="151" selection-start-column="11" selection-end-line="151" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/sonar.response.resources.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/schema/json/resources.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/com/architrek/projects/qa/Issue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/com/architrek/projects/qa/Issues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/com/architrek/projects/qa/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/schema/xsd/sonar.resouces.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/architrek/projects/qa/ConfigLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/architrek/projects/qa/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/architrek/projects/qa/LoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/digest/SonarQubeDigestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#986#1833#0" expanded="false" />
-            <element signature="e#1839#2686#0" expanded="false" />
-            <element signature="e#2692#3539#0" expanded="false" />
-            <element signature="e#3545#4404#0" expanded="false" />
-            <element signature="e#4410#5319#0" expanded="false" />
-            <element signature="e#5325#6090#0" expanded="false" />
-            <element signature="e#6096#6952#0" expanded="false" />
-            <element signature="e#6958#7814#0" expanded="false" />
-            <element signature="e#7820#8658#0" expanded="false" />
-            <element signature="e#8664#9476#0" expanded="false" />
-            <element signature="e#9482#10315#0" expanded="false" />
-            <element signature="e#10321#11154#0" expanded="false" />
-            <element signature="e#11160#11978#0" expanded="false" />
-            <element signature="e#11984#12810#0" expanded="false" />
-            <element signature="e#12816#13642#0" expanded="false" />
-            <element signature="e#13648#14474#0" expanded="false" />
-            <element signature="e#14480#15306#0" expanded="false" />
-            <element signature="e#15312#16138#0" expanded="false" />
-            <element signature="e#16144#16970#0" expanded="false" />
-            <element signature="e#16976#17814#0" expanded="false" />
-            <element signature="e#17820#18659#0" expanded="false" />
-            <element signature="e#18665#19504#0" expanded="false" />
-            <element signature="e#19510#20349#0" expanded="false" />
-            <element signature="e#20355#21195#0" expanded="false" />
-            <element signature="e#21201#22043#0" expanded="false" />
-            <element signature="e#22049#22889#0" expanded="false" />
-            <element signature="e#22895#23734#0" expanded="false" />
-            <element signature="e#23740#24579#0" expanded="false" />
-            <element signature="e#24585#25424#0" expanded="false" />
-            <element signature="e#25430#26269#0" expanded="false" />
-            <element signature="e#26275#27114#0" expanded="false" />
-            <element signature="e#27120#27959#0" expanded="false" />
-            <element signature="e#27965#28804#0" expanded="false" />
-            <element signature="e#28810#29652#0" expanded="false" />
-            <element signature="e#29658#30497#0" expanded="false" />
-            <element signature="e#30503#31343#0" expanded="false" />
-            <element signature="e#31349#32188#0" expanded="false" />
-            <element signature="e#32194#33033#0" expanded="false" />
-            <element signature="e#33039#33881#0" expanded="false" />
-            <element signature="e#33887#34726#0" expanded="false" />
-            <element signature="e#34732#35571#0" expanded="false" />
-            <element signature="e#35577#36495#0" expanded="false" />
-            <element signature="e#36501#37337#0" expanded="false" />
-            <element signature="e#37343#38552#0" expanded="false" />
-            <element signature="e#38558#39415#0" expanded="false" />
-            <element signature="e#39421#40362#0" expanded="false" />
-            <element signature="e#40368#41314#0" expanded="false" />
-            <element signature="e#41320#42171#0" expanded="false" />
-            <element signature="e#42177#43028#0" expanded="false" />
-            <element signature="e#43034#43879#0" expanded="false" />
-            <element signature="e#43885#44733#0" expanded="false" />
-            <element signature="e#44739#45583#0" expanded="false" />
-            <element signature="e#45589#46453#0" expanded="false" />
-            <element signature="e#46459#47323#0" expanded="false" />
-            <element signature="e#47329#48251#0" expanded="false" />
-            <element signature="e#48257#49129#0" expanded="false" />
-            <element signature="e#49135#49982#0" expanded="false" />
-            <element signature="e#49988#50835#0" expanded="false" />
-            <element signature="e#50841#51686#0" expanded="false" />
-            <element signature="e#51692#52624#0" expanded="false" />
-            <element signature="e#52630#53457#0" expanded="false" />
-            <element signature="e#53463#54328#0" expanded="false" />
-            <element signature="e#54334#55139#0" expanded="false" />
-            <element signature="e#55145#55997#0" expanded="false" />
-            <element signature="e#56003#56845#0" expanded="false" />
-            <element signature="e#56851#57695#0" expanded="false" />
-            <element signature="e#57701#58534#0" expanded="false" />
-            <element signature="e#58540#59397#0" expanded="false" />
-            <element signature="e#59403#60262#0" expanded="false" />
-            <element signature="e#60268#61468#0" expanded="false" />
-            <element signature="e#61474#62238#0" expanded="false" />
-            <element signature="e#62244#63169#0" expanded="false" />
-            <element signature="e#63175#64100#0" expanded="false" />
-            <element signature="e#64106#64943#0" expanded="false" />
-            <element signature="e#64949#65787#0" expanded="false" />
-            <element signature="e#65793#66633#0" expanded="false" />
-            <element signature="e#66639#67476#0" expanded="false" />
-            <element signature="e#67482#68319#0" expanded="false" />
-            <element signature="e#68325#69165#0" expanded="false" />
-            <element signature="e#69171#70011#0" expanded="false" />
-            <element signature="e#70017#70854#0" expanded="false" />
-            <element signature="e#70860#71703#0" expanded="false" />
-            <element signature="e#71709#72551#0" expanded="false" />
-            <element signature="e#72557#73399#0" expanded="false" />
-            <element signature="e#73405#74251#0" expanded="false" />
-            <element signature="e#74257#75103#0" expanded="false" />
-            <element signature="e#75109#75936#0" expanded="false" />
-            <element signature="e#75942#76810#0" expanded="false" />
-            <element signature="e#76816#77700#0" expanded="false" />
-            <element signature="e#77706#78921#0" expanded="false" />
-            <element signature="e#78927#79781#0" expanded="false" />
-            <element signature="e#79787#80556#0" expanded="false" />
-            <element signature="e#80562#81420#0" expanded="false" />
-            <element signature="e#81426#82653#0" expanded="false" />
-            <element signature="e#82659#83434#0" expanded="false" />
-            <element signature="e#83440#84665#0" expanded="false" />
-            <element signature="e#84671#85533#0" expanded="false" />
-            <element signature="e#85539#86316#0" expanded="false" />
-            <element signature="e#86322#87188#0" expanded="false" />
-            <element signature="e#87210#114017#0" expanded="false" />
+            <element signature="e#677#678#0" expanded="false" />
+            <element signature="e#707#708#0" expanded="false" />
+            <element signature="e#1462#1463#0" expanded="false" />
+            <element signature="e#1499#1500#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/digest/SonarQubeDigestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/results/Issues.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/schema/json/Issues.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/digest/SonarQubeDigest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="264" column="18" selection-start-line="264" selection-start-column="18" selection-end-line="264" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sonar-digest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
