@@ -6,8 +6,12 @@
 ## Sonarqube advanced reporting
 ================
 
-This SpringBoot Application enaböe to download selected severity issues from Sonarqube as CSV files for further analysis in Excel
+This SpringBoot Application manages to download selected severity issues from Sonarqube as CSV files for further analysis in Excel
 
-### Set up
+## Set up
 
 Amend the application.properties in the src/main/resources location to fit individual needs
+
+## Run
+
+After having amended the property files, run the SonarQubeDigest class to download the CSV files in the data/results location
