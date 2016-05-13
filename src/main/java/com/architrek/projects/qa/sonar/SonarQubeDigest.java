@@ -96,7 +96,6 @@ public class SonarQubeDigest implements CommandLineRunner {
     /**
      * Writes the results of this Query to the configured output location
      *
-     * @param component the detail message. The detail message is saved for
      * @param component the Sonar Component
      * @param allPages  All Issues collected for this Component
      * @throws SonarQubeDigestException in case something didn't work
@@ -134,7 +133,6 @@ public class SonarQubeDigest implements CommandLineRunner {
 
 
     }
-
 
 
 }
