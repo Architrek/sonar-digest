@@ -2,9 +2,10 @@ target/
 .project
 .classpath
 .settings
-data/results
+
 
 ## File-based project format:
+*.csv
 *.ipr
 *.iws
 *.iml
