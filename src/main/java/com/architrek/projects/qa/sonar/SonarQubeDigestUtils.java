@@ -10,7 +10,7 @@ import java.util.List;
  * <p>
  * Perfection is unachievable, I'm all right with Excellence
  * <p>
- * Architrek(c) Andreetto Consulting sampleRest 2016 All rights reserved
+ * Architrek(c) Andreetto Consulting sonar-digest 2016 All rights reserved
  */
 public class SonarQubeDigestUtils {
 
