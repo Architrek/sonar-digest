@@ -120,6 +120,7 @@ public class SonarQubeDigest implements CommandLineRunner {
 
                 bufferedWriter.write(SonarQubeDigestUtils.transformIssueInCSVLine(issue));
                 bufferedWriter.newLine();
+                bufferedWriter.flush();
 
             }
 

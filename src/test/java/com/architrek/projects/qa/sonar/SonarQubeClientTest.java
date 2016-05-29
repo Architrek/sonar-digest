@@ -44,4 +44,14 @@ public class SonarQubeClientTest {
     }
 
 
+    @Test
+    public void testRegExp() throws Exception{
+        String test = "\"value\" is already a string, there's no need to call \"toString()\" on it.";
+        //test = test.replaceAll("(?<!, ), (?!,)", " ");
+        test = test.replaceAll("[,]$", ";");
+        System.out.println(test);
+
+    }
+
+
 }

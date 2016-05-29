@@ -36,7 +36,7 @@ public class SonarQubeClient {
     /**
      * Loads all Issues for a configured severity for the selected component
      *
-     * @param component The Sonar COmponent to query about
+     * @param component The Sonar Component to query about
      * @param page      The page we want to retrieve
      * @return All Issues belonging to the given component
      * @throws URISyntaxException IF the SonarQube URI is not correct

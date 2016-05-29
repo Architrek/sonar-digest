@@ -2,6 +2,8 @@ package com.architrek.projects.qa.sonar;
 
 
 import com.architrek.projects.qa.sonar.rest.json.Issue;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
@@ -14,22 +16,31 @@ import java.util.List;
  */
 public class SonarQubeDigestUtils {
 
+    private static final Logger log = LoggerFactory.getLogger(SonarQubeDigestUtils.class);
 
     public static String transformIssueInCSVLine(Issue issue) {
-        String newLine = issue.getSeverity() + "," +
-                issue.getProject() + "," +
-                issue.getSubProject() + "," +
-                issue.getComponent().replaceAll(issue.getSubProject() + ":", "") + "," +
-                issue.getMessage() + "," +
-                issue.getLine() + "," +
-                issue.getAuthor() + "," +
-                issue.getDebt().replaceAll("[^0-9]", "") + ",";
-        final List<String> tags = issue.getTags();
-        for (String tag : tags) {
-            newLine = newLine + tag + ";";
+
+        try {
+            String message = issue.getMessage();
+            message = message.replaceAll("(?<!, ), (?!,)", " "); // remove all commas from message
+            String newLine = issue.getSeverity() + "," +
+                    issue.getProject() + "," +
+                    issue.getSubProject() + "," +
+                    (issue.getComponent()!=null?issue.getComponent().replaceAll(issue.getSubProject() + ":", ""):"") + "," +
+                    message + "," +
+                    (issue.getLine() != null ? issue.getLine() : 0) + "," +
+                    issue.getAuthor() + "," +
+                    (issue.getDebt() != null ? issue.getDebt().replaceAll("[^0-9]", "") : "0") + ",";
+            final List<String> tags = issue.getTags();
+            for (String tag : tags) {
+                newLine = newLine + tag + ";";
+            }
+            newLine = newLine.replaceAll("[;]$", "");
+            return newLine;
+        } catch (Exception e) {
+            log.error("Something went wrong with this issue: " + issue.toString());
+            return "";
         }
-        newLine = newLine.replaceAll("[;]$", "");
-        return newLine;
     }
 
 }
