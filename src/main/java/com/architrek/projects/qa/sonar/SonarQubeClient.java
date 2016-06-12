@@ -52,7 +52,7 @@ public class SonarQubeClient {
     /**
      * This method returns the list of all components configured in SonarQube instance
      *
-     * @return
+     * @return the List of Components
      */
     protected List<Component> getComponents() {
         ResponseEntity<List<Component>> componentResponse = new RestTemplate().exchange(COMPONENTS_URI,

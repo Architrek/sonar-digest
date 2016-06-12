@@ -487,6 +487,7 @@
                 <version>2.19.1</version>
 
                 <configuration>
+                    <argLine>-Xms2048M -Xmx2048M</argLine>
                     <aggregate>true</aggregate>
                     <reportsDirectory>${build.directory}/surefire-reports/</reportsDirectory>
                 </configuration>

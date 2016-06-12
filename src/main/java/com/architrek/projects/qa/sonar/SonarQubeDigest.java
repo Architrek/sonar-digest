@@ -18,8 +18,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by AANG on 12/05/16/12:54.
@@ -56,6 +58,7 @@ public class SonarQubeDigest implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
+        final long nanoTime = System.nanoTime();
         log.info("Starting execution");
 
         List<Component> components = sonarQubeClient.getComponents();
@@ -63,76 +66,30 @@ public class SonarQubeDigest implements CommandLineRunner {
 
         for (Component component : components) {
 
-            final List<Issue> allPages = new ArrayList<>();
-
-
-            // we start with page one Issues
+            // we start with page one Issues, load it from SQ
             int currentPage = 1;
-            final Issues issuesPageOne = sonarQubeClient.getIssues(component, currentPage);
-            allPages.addAll(issuesPageOne.getIssues());
+            Issues issues = sonarQubeClient.getIssues(component, currentPage);
+
+            // write down page one in any case
+            SonarQubeDigestUtils.appendToFile(OUTPUT_LOCATION, component, issues);
+            currentPage++;
 
 
             // let's count how many pages are there
-            Paging paging = issuesPageOne.getPaging();
+            Paging paging = issues.getPaging();
             int pages = paging.getTotal() / paging.getPageSize() + 1;
 
-            if (pages > 1) {
-
-                while (pages > currentPage) {
-                    currentPage++;
-                    allPages.addAll(sonarQubeClient.getIssues(component, currentPage).getIssues());
-                }
-
-            }
-
-            try {
-                writeItDown(component, allPages);
-            } catch (SonarQubeDigestException e) {
-                log.error("Execution terminated abnormally, check the stack trace for info", e);
-            }
-        }
-    }
-
-    /**
-     * Writes the results of this Query to the configured output location
-     *
-     * @param component the Sonar Component
-     * @param allPages  All Issues collected for this Component
-     * @throws SonarQubeDigestException in case something didn't work
-     */
-    private void writeItDown(Component component, List<Issue> allPages) throws SonarQubeDigestException {
-
-        try {
-
-            final SimpleDateFormat fromFmt = new SimpleDateFormat("dd-MM-yyyy");
-
-
-            final FileWriter fileW = new FileWriter(String.format(OUTPUT_LOCATION, fromFmt.format(new Date()), component.getKey()));
-            final BufferedWriter bufferedWriter = new BufferedWriter(fileW);
-
-            // add column headers
-            bufferedWriter.write("SEVERITY,PROJECT,MODULE,COMPONENT,MESSAGE,LINE,AUTHOR,DEBT,TAGS");
-            bufferedWriter.newLine();
-
-
-            for (Issue issue : allPages) {
-
-
-                bufferedWriter.write(SonarQubeDigestUtils.transformIssueInCSVLine(issue));
-                bufferedWriter.newLine();
-                bufferedWriter.flush();
-
+            // load and append issues page by page
+            while (currentPage < pages) {
+                issues = sonarQubeClient.getIssues(component, currentPage);
+                SonarQubeDigestUtils.appendToFile(OUTPUT_LOCATION, component, issues);
+                currentPage++;
             }
 
 
-            bufferedWriter.close();
-            fileW.close();
-
-        } catch (IOException e) {
-            throw new SonarQubeDigestException("Something really bad happend whilst writing down results", e);
         }
 
-
+        log.info("Execution completed in {} 1/1000\"", TimeUnit.MILLISECONDS.convert(System.nanoTime() - nanoTime, TimeUnit.NANOSECONDS));
     }
 
 
